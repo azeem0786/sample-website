@@ -64,9 +64,9 @@ if (isset($_POST["booking"])) {
                     /* SMTP parameters. */
                     try {
                         /*$mail->SMTPDebug = 2;*/
-                        $mail->setFrom('info@healthcheckindia.com', 'Health Check India');
-                        $mail->addAddress('info@healthcheckindia.com', 'Health Check India');
-                        $mail->Subject = 'Health Check India Call Back Request';
+                        $mail->setFrom('******', 'Developer Brains');
+                        $mail->addAddress('******', 'Developer Brains');
+                        $mail->Subject = 'Developer Brains Call Back Request';
                         $mail->Body = "
 Received new call back request. Here is the detail\n\n
 " . "Name: $first\n
@@ -80,8 +80,8 @@ Contact Number: $phone \n";
                         $mail->Host = 'smtp.hostinger.in';
                         $mail->SMTPAuth = TRUE;
                         $mail->SMTPSecure = 'tls';
-                        $mail->Username = 'info@healthcheckindia.com';
-                        $mail->Password = 'Healthcheck@1234';
+                        $mail->Username = '******';
+                        $mail->Password = '*******';
                         $mail->Port = 587;
                         $result = $mail->send();
                         if ($result) {
@@ -222,9 +222,9 @@ if (isset($_POST["upload"])) {
                     /* SMTP parameters. */
                     try {
                         /*$mail->SMTPDebug = 2;*/
-                        $mail->setFrom('info@healthcheckindia.com', 'Health Check India');
-                        $mail->addAddress('info@healthcheckindia.com', 'Health Check India');
-                        $mail->Subject = 'Health Check India Call Back Request';
+                        $mail->setFrom('**********', 'Developer Brains');
+                        $mail->addAddress('**********', 'Developer Brains');
+                        $mail->Subject = 'Developer Brains Call Back Request';
                         $mail->Body = "
 Received new prescription. Here is the detail\n\n
 " . "Name: $first\n
@@ -239,8 +239,8 @@ Prescription link: https://www.healthcheckindia.com/$original_file";
                         $mail->Host = 'smtp.hostinger.in';
                         $mail->SMTPAuth = TRUE;
                         $mail->SMTPSecure = 'tls';
-                        $mail->Username = 'info@healthcheckindia.com';
-                        $mail->Password = 'Healthcheck@1234';
+                        $mail->Username = '**********';
+                        $mail->Password = '*******';
                         $mail->Port = 587;
                         $result = $mail->send();
                         if ($result) {
