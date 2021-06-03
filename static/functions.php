@@ -17,28 +17,24 @@ if (isset($_SESSION['login_user'])) {
 
     <meta property="og:site_name" content="Developer Brains" />
     <meta property="og:title" content="Developer Brains" />
-    <meta property="og:image" content="https://www.thedeveloperbrains.com" />
+    <meta property="og:image" content="https://www.thedeveloperbrains.com/img/logos/logo.png" />
     <meta property="og:type" content="Developer Brains" />
     <meta property="og:locale" content="en_GB" />
     <meta property="og:url" content="https://www.healthcheckindia.com" />
-    <meta property="og:description" content="Developer Brains is here to provide the best to the people Delhi & NCR, Meerut, Roorkee, Haridwar, Dedhradu, Saharanpur, Shamli etc. A whole gamut of the most advanced laboratory services combined with exceptional support services is a great new addition to the community’s health services sector. We ensure dependable, secure, affordable, competent and convenient service for all.
-Any kind of health tests are now only a call away. Keeping the current situation in mind we have a dedicated Home Collection Team to provide doorstep services,. Now you can access our state-of-the-art facilities from the safety and comfort of your home.
-We have fully operational centres with technologically superior equipment and facilities with dedicated and expert staff." />
+    <meta property="og:description" content="" />
 
     <!--twitter-->
     <meta name="twitter:card" content="Developer Brains" />
     <meta name="twitter:site" content="Developer Brains" />
     <meta name="twitter:title" content="Developer Brains" />
-    <meta name="twitter:image" content="https://www.thedeveloperbrains.com" />
-    <meta name="twitter:description" content="Developer Brains is here to provide the best to the people Delhi & NCR, Meerut, Roorkee, Haridwar, Dedhradu, Saharanpur, Shamli etc. A whole gamut of the most advanced laboratory services combined with exceptional support services is a great new addition to the community’s health services sector. We ensure dependable, secure, affordable, competent and convenient service for all.
-Any kind of health tests are now only a call away. Keeping the current situation in mind we have a dedicated Home Collection Team to provide doorstep services,. Now you can access our state-of-the-art facilities from the safety and comfort of your home.
-We have fully operational centres with technologically superior equipment and facilities with dedicated and expert staff." />
+    <meta name="twitter:image" content="https://www.thedeveloperbrains.com/img/logos/logo.png" />
+    <meta name="twitter:description" content="" />
 
     <meta name="keywords" content="lab, noida lab, hospital test, covid home collection, home collection, online covid test, covid report online, covid report, check covid report online, lab test, covid test, covid test, covid'19, white fungus, black fungus,healthy india, india covid test, covid online report, covid test online,covid cases, covid news, covid lab india, covid lab gurgaon, covid lab delhi, covid lab noida, covid lab punjab">
 
     <!--icon-->
-    <link rel="shortcut icon" href="https://www.thedeveloperbrains.com">
-    <link rel="apple-touch-icon" href="https://www.thedeveloperbrains.com">
+    <link rel="shortcut icon" href="https://www.thedeveloperbrains.com/img/logos/logo.png">
+    <link rel="apple-touch-icon" href="https://www.thedeveloperbrains.com/img/logos/logo.png">
 
     <!--links-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -69,10 +65,8 @@ We have fully operational centres with technologically superior equipment and fa
         echo $_SESSION['chat'];
         $variable = 'index';
     ?>
-        <title>Developer Brains | Healthy Jio India</title>
-        <meta name="description" content="Developer Brains is here to provide the best to the people Delhi & NCR, Meerut, Roorkee, Haridwar, Dedhradu, Saharanpur, Shamli etc. A whole gamut of the most advanced laboratory services combined with exceptional support services is a great new addition to the community’s health services sector. We ensure dependable, secure, affordable, competent and convenient service for all.
-Any kind of health tests are now only a call away. Keeping the current situation in mind we have a dedicated Home Collection Team to provide doorstep services,. Now you can access our state-of-the-art facilities from the safety and comfort of your home.
-We have fully operational centres with technologically superior equipment and facilities with dedicated and expert staff.">
+        <title>Developer Brains</title>
+        <meta name="description" content="">
         <meta name="robots" content="no-index, no-follow">
         <link rel="apple-touch-icon" sizes="57x57" href="img/apple-icon-57x57.png">
         <link rel="apple-touch-icon" sizes="60x60" href="img/apple-icon-60x60.png">
