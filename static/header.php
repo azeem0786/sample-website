@@ -65,7 +65,7 @@ if ($variable == 'feedback') {
                     few minutes.
                 </div><br />
                 <a href="https://wa.me/918077401297/?text=" target="_blank" rel="noopener">
-                    <p class="user1 b-tdb-blue1 bold-tdb4 c-tdb-gray7 font-tdb15"><i class="fab fa-whatsapp font-tdb25 c-tdb-red8"></i> Health Check India</p>
+                    <p class="user1 b-tdb-blue1 bold-tdb4 c-tdb-gray7 font-tdb15"><i class="fab fa-whatsapp font-tdb25 c-tdb-red8"></i> Developer Brains</p>
                 </a>
             </div>
         </div>

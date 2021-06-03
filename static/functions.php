@@ -12,33 +12,33 @@ if (isset($_SESSION['login_user'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="theme-color" content="185aa6">
-    <meta name="author" content="Health Check India">
+    <meta name="author" content="Developer Brains">
     <meta name="copyright" content="All rights reserved. Copyright 2020, www.healthcheckindia.com">
 
-    <meta property="og:site_name" content="Health Check India" />
-    <meta property="og:title" content="Health Check India" />
-    <meta property="og:image" content="https://www.healthcheckindia.com/img/banner/logo-small.png" />
-    <meta property="og:type" content="Health Check India" />
+    <meta property="og:site_name" content="Developer Brains" />
+    <meta property="og:title" content="Developer Brains" />
+    <meta property="og:image" content="https://www.thedeveloperbrains.com" />
+    <meta property="og:type" content="Developer Brains" />
     <meta property="og:locale" content="en_GB" />
     <meta property="og:url" content="https://www.healthcheckindia.com" />
-    <meta property="og:description" content="Health check india is here to provide the best to the people Delhi & NCR, Meerut, Roorkee, Haridwar, Dedhradu, Saharanpur, Shamli etc. A whole gamut of the most advanced laboratory services combined with exceptional support services is a great new addition to the community’s health services sector. We ensure dependable, secure, affordable, competent and convenient service for all.
+    <meta property="og:description" content="Developer Brains is here to provide the best to the people Delhi & NCR, Meerut, Roorkee, Haridwar, Dedhradu, Saharanpur, Shamli etc. A whole gamut of the most advanced laboratory services combined with exceptional support services is a great new addition to the community’s health services sector. We ensure dependable, secure, affordable, competent and convenient service for all.
 Any kind of health tests are now only a call away. Keeping the current situation in mind we have a dedicated Home Collection Team to provide doorstep services,. Now you can access our state-of-the-art facilities from the safety and comfort of your home.
 We have fully operational centres with technologically superior equipment and facilities with dedicated and expert staff." />
 
     <!--twitter-->
-    <meta name="twitter:card" content="Health Check India" />
-    <meta name="twitter:site" content="Health Check India" />
-    <meta name="twitter:title" content="Health Check India" />
-    <meta name="twitter:image" content="https://www.healthcheckindia.com/img/banner/logo-small.png" />
-    <meta name="twitter:description" content="Health check india is here to provide the best to the people Delhi & NCR, Meerut, Roorkee, Haridwar, Dedhradu, Saharanpur, Shamli etc. A whole gamut of the most advanced laboratory services combined with exceptional support services is a great new addition to the community’s health services sector. We ensure dependable, secure, affordable, competent and convenient service for all.
+    <meta name="twitter:card" content="Developer Brains" />
+    <meta name="twitter:site" content="Developer Brains" />
+    <meta name="twitter:title" content="Developer Brains" />
+    <meta name="twitter:image" content="https://www.thedeveloperbrains.com" />
+    <meta name="twitter:description" content="Developer Brains is here to provide the best to the people Delhi & NCR, Meerut, Roorkee, Haridwar, Dedhradu, Saharanpur, Shamli etc. A whole gamut of the most advanced laboratory services combined with exceptional support services is a great new addition to the community’s health services sector. We ensure dependable, secure, affordable, competent and convenient service for all.
 Any kind of health tests are now only a call away. Keeping the current situation in mind we have a dedicated Home Collection Team to provide doorstep services,. Now you can access our state-of-the-art facilities from the safety and comfort of your home.
 We have fully operational centres with technologically superior equipment and facilities with dedicated and expert staff." />
 
     <meta name="keywords" content="lab, noida lab, hospital test, covid home collection, home collection, online covid test, covid report online, covid report, check covid report online, lab test, covid test, covid test, covid'19, white fungus, black fungus,healthy india, india covid test, covid online report, covid test online,covid cases, covid news, covid lab india, covid lab gurgaon, covid lab delhi, covid lab noida, covid lab punjab">
 
     <!--icon-->
-    <link rel="shortcut icon" href="https://www.healthcheckindia.com/img/banner/logo-small.png">
-    <link rel="apple-touch-icon" href="https://www.healthcheckindia.com/img/banner/logo-small.png">
+    <link rel="shortcut icon" href="https://www.thedeveloperbrains.com">
+    <link rel="apple-touch-icon" href="https://www.thedeveloperbrains.com">
 
     <!--links-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -69,8 +69,8 @@ We have fully operational centres with technologically superior equipment and fa
         echo $_SESSION['chat'];
         $variable = 'index';
     ?>
-        <title>Health Check India | Healthy Jio India</title>
-        <meta name="description" content="Health check india is here to provide the best to the people Delhi & NCR, Meerut, Roorkee, Haridwar, Dedhradu, Saharanpur, Shamli etc. A whole gamut of the most advanced laboratory services combined with exceptional support services is a great new addition to the community’s health services sector. We ensure dependable, secure, affordable, competent and convenient service for all.
+        <title>Developer Brains | Healthy Jio India</title>
+        <meta name="description" content="Developer Brains is here to provide the best to the people Delhi & NCR, Meerut, Roorkee, Haridwar, Dedhradu, Saharanpur, Shamli etc. A whole gamut of the most advanced laboratory services combined with exceptional support services is a great new addition to the community’s health services sector. We ensure dependable, secure, affordable, competent and convenient service for all.
 Any kind of health tests are now only a call away. Keeping the current situation in mind we have a dedicated Home Collection Team to provide doorstep services,. Now you can access our state-of-the-art facilities from the safety and comfort of your home.
 We have fully operational centres with technologically superior equipment and facilities with dedicated and expert staff.">
         <meta name="robots" content="no-index, no-follow">
@@ -96,7 +96,7 @@ We have fully operational centres with technologically superior equipment and fa
         <meta name="mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="rgb(148, 38, 38)">
-        <meta name="apple-mobile-web-app-title" content="Health Check India">
+        <meta name="apple-mobile-web-app-title" content="Developer Brains">
 
         </script>
 </head>
@@ -114,8 +114,8 @@ We have fully operational centres with technologically superior equipment and fa
         echo $_SESSION['chat'];
         $variable = 'about';
 ?>
-    <title>Health Check India About Page</title>
-    <meta name="description" content="Health Check India About Page">
+    <title>Developer Brains About Page</title>
+    <meta name="description" content="Developer Brains About Page">
     <meta name="robots" content="index, follow">
     </head>
 
@@ -133,8 +133,8 @@ We have fully operational centres with technologically superior equipment and fa
         echo $_SESSION['chat'];
         $variable = 'contact';
     ?>
-        <title>Health Check India Contact</title>
-        <meta name="description" content="Health Check India Contact Us Page">
+        <title>Developer Brains Contact</title>
+        <meta name="description" content="Developer Brains Contact Us Page">
         <meta name="robots" content="index, follow">
         </head>
 
@@ -166,8 +166,8 @@ We have fully operational centres with technologically superior equipment and fa
         echo $_SESSION['chat'];
         $variable = 'home_collection';
         ?>
-            <title>Home Collection | Health Check India</title>
-            <meta name="description" content="Home Collection | Health Check India">
+            <title>Home Collection | Developer Brains</title>
+            <meta name="description" content="Home Collection | Developer Brains">
             <meta name="robots" content="index, follow">
             </head>
 
@@ -184,8 +184,8 @@ We have fully operational centres with technologically superior equipment and fa
             echo $_SESSION['chat'];
             $variable = 'prescription';
             ?>
-                <title>Upload prescription | Health Check India</title>
-                <meta name="description" content="Upload prescription | Health Check India">
+                <title>Upload prescription | Developer Brains</title>
+                <meta name="description" content="Upload prescription | Developer Brains">
                 <meta name="robots" content="index, follow">
                 </head>
 
@@ -203,8 +203,8 @@ We have fully operational centres with technologically superior equipment and fa
 
                 $variable = 'privacy';
                 ?>
-                    <title>Health Check India Privacy</title>
-                    <meta name="description" content="Health Check India Privacy Policy">
+                    <title>Developer Brains Privacy</title>
+                    <meta name="description" content="Developer Brains Privacy Policy">
                     <meta name="robots" content="noindex, nofollow">
                     </head>
 
@@ -223,8 +223,8 @@ We have fully operational centres with technologically superior equipment and fa
                 {
                     $variable = 'terms';
                     ?>
-                        <title>Health Check India Terms</title>
-                        <meta name="description" content="Health Check India Terms  & Conditions page">
+                        <title>Developer Brains Terms</title>
+                        <meta name="description" content="Developer Brains Terms  & Conditions page">
                         <meta name="robots" content="noindex, nofollow">
                         </head>
 
@@ -287,8 +287,8 @@ We have fully operational centres with technologically superior equipment and fa
                                 }
                                 $variable = 'login';
                                 ?>
-                                    <title>Login Page | Health Check India </title>
-                                    <meta name="description" content="Login Health Check India and Download Your Report.">
+                                    <title>Login Page | Developer Brains </title>
+                                    <meta name="description" content="Login Developer Brains and Download Your Report.">
                                     <meta name="robots" content="index, follow">
                                     </head>
 
@@ -308,8 +308,8 @@ We have fully operational centres with technologically superior equipment and fa
                                     }
                                     $variable = 'password';
                                     ?>
-                                        <title>Health Check India Password Reset</title>
-                                        <meta name="description" content="Health Check India Password Reset">
+                                        <title>Developer Brains Password Reset</title>
+                                        <meta name="description" content="Developer Brains Password Reset">
                                         <meta name="robots" content="noindex, nofollow">
                                         </head>
 
