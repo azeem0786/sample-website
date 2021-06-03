@@ -1,6 +1,6 @@
 /*responsive navigation bar*/
 /*responsive navigation bar*/
-.nav4{width:100%;left:0;font-size:14px;z-index:50000;padding:10px 0px 2px 0;color:rgb(71, 71, 71);border-radius:0}
+.nav4{width:100%;left:0;font-size:14px;z-index:50000;padding:0px 0px 2px 0;color:rgb(71, 71, 71);border-radius:0}
 .nav4 a{transition:0.5s;color: inherit;font-size: 14px;}
 .nav4 a:hover{opacity:0.6}
 .nav4 a:active{opacity:1}
@@ -28,7 +28,7 @@
 .nav4 .sidebar{border-radius:0 0 0 0;z-index: 10500;display:none;animation:side 0.2s;padding:0px;overflow-x:hidden;box-shadow: 0 0 5px 0 rgba(0,0,0,.1);position: fixed;top:0px;left:0;width:310px;height:100%;}
 .nav4 .sidetop{padding:15px}
 .nav4 .cover{display:none;position:fixed;height:100%;width:100%;background-color: rgba(0, 0, 0, 0.158);z-index:1000;top:0;left:0}
-.nav4 .toggle{font-size:19px;cursor: pointer;display:none;position:absolute;right:22px;top:48px}
+.nav4 .toggle{font-size:19px;cursor: pointer;display:none;position:absolute;z-index: 1000}
 @media screen and (max-width:950px){
     .nav4 #toggle41{display:block;}
     .nav4 #toggle42{display:none;}

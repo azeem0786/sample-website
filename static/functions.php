@@ -39,6 +39,7 @@ if (isset($_SESSION['login_user'])) {
     <!--links-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
     <script src="tdb-package/js/jquery.min.js?version=01"></script>
     <script src="tdb-package/js/nav.js?version=01"></script>
@@ -96,6 +97,7 @@ if (isset($_SESSION['login_user'])) {
 </head>
 
 <body id="body" class="b-tdb-gray4 fixed">
+    
 <?php include 'header.php';
     }
 
