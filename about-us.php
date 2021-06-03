@@ -32,12 +32,7 @@ about();
                         <br />
                         <h2 class="font-tdb30"><span class="c-tdb-gray1 bold-tdb5 padding-bottom-tdb5" style="border-bottom:solid white 4px">About Us!</span>
                         </h2>
-                       <p>Health check india
-is here to provide the best to the people Delhi & NCR, Meerut, Roorkee, Haridwar, Dedhradu, Saharanpur, Shamli etc. A whole gamut of the most advanced laboratory services combined with exceptional support services is a great new addition to the community’s health services sector. We ensure dependable, secure, affordable, competent and convenient service for all.
-<br>
-Any kind of health tests are now only a call away. Keeping the current situation in mind we have a dedicated Home Collection Team to provide doorstep services,. Now you can access our state-of-the-art facilities from the safety and comfort of your home.
-<br>
-We have fully operational centres with technologically superior equipment and facilities with dedicated and expert staff.</p>
+                       <p></p>
                         <br /><br />
                     </div>
                 </div>

@@ -56,7 +56,7 @@ contact();
 								</div>
 								<div class="tdb-xsm-10 padding-tdb10 left">
 									<div class="bold-tdb6 font-tdb18 c-tdb-black">Mail Us!</div>
-									<a href="mailto:info@healthcheckindia.com">info@healthcheckindia.com</a>
+									<a href="mailto:contact@thedeveloperbrains.com">contact@thedeveloperbrains.com</a>
 								</div>
 							</div>
 						</div>

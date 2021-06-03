@@ -232,7 +232,7 @@ Email id: $email \n
 City: $address \n
 Contact Number: $phone \n
 Package No: $package \n
-Prescription link: https://www.healthcheckindia.com/$original_file";
+Prescription link: https://www.website.com/$original_file";
 
                         /* SMTP parameters. */
                         $mail->isSMTP();
