@@ -18,7 +18,7 @@ about();
     <section class="c-tdb-gray7 b-tdb-green1 margin-top-tdb5 s-center-tdb1">
         <br><br>
         <div class="center"><br>
-            <img src="img/banner/logo.png" alt="" class="w-px-tdb200">
+            <img src="https://www.thedeveloperbrains.com/img/logos/logo.png" alt="" class="w-px-tdb200">
             
             <br><br>
             <br>
