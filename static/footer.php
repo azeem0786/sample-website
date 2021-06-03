@@ -1,54 +1,28 @@
-<!-- <section class="tdb-super-container">
-    <div class="tdb-md-row center b-tdb-gray5">
+<section class="tdb-super-container c-tdb-red8">
+    <div class="tdb-md-row center b-tdb-red8 margin-tdb30">
         <div class="tdb-md-12 left">
             <div class="padding-tdb30 center">
                 <h5 class="bold-tdb6 font-tdb20 margin-top-tdb0 margin-bottom-tdb5">Flexible hours designed around your schedule</h5>
                 Appointments available on your terms.
                 <br>
-                <a href="home-collection.php"><button class="btn-tdb b-tdb-red8 c-tdb-white bold-tdb4 margin-top-tdb10">
+                <a href="home-collection.php"><button class="btn-tdb b-tdb-red9 btn-tdb1 c-tdb-white bold-tdb4 margin-top-tdb10">
                         Book Home Collection</button></a>
             </div>
 
         </div>
     </div>
-</section> -->
-
-<!-- location -->
-<br><br><br>
-<section class="tdb-super-container">
-    <br><br>
-    <p class="bold-tdb7 center c-tdb-red8 font-tdb30">Our Location</p>
-    <div class="tdb-md-row center btn-tdb1 ">
-        <div class="tdb-md-8 left" style="margin: auto;">
-            <br><br>
-            <div class="btn-tdb1 s-center-tdb1 padding-tdb30 b-tdb-white c-tdb-gray8 margin-tdb5">
-                <h5 class="bold-tdb6 font-tdb20 margin-top-tdb0 c-tdb-red8 margin-bottom-tdb5">Noida Centre</h5>
-                Sector-66<br>
-                Noida, India
-                <br><br>
-                <a href="tel:917618188080"><i class="c-tdb-red8 fa fa-phone"></i>
-                +91 8077401297</a>
-                <br><br>
-                <a href="mailto:contact@thedeveloperbrains.com"><i class="c-tdb-red8 fa fa-envelope"></i>
-                contact@thedeveloperbrains.com</a>
-            </div>
-            <br><br>
-        </div>
-        
-        
-
-    </div>
 </section>
 
 
+
 <!-- footer -->
-<section class="b-tdb-gray3 padding-tdb20 padding-top-tdb30 padding-bottom-tdb30 c-tdb-gray8 font-tdb14" id="follow">
+<section class="b-tdb-red8 padding-tdb20 padding-top-tdb30 padding-bottom-tdb30 c-tdb-red8 font-tdb14" id="follow">
     <div class="tdb-super-container">
         <div class="tdb-md-row">
             <div class="tdb-md-12 left">
                 <br />
                 <a href="index.php" title="go to home">
-                    <img src="https://www.thedeveloperbrains.com/img/logos/logo.png" alt="health check india logo" class="h-px-tdb70" style="opacity:0.9;"></a>
+                <h1 class="bold-tdb8 margin-tdb0 font-tdb50 c-tdb-red8 wow bounceInUp" style="font-family: 'Kaushan Script', cursive;">milkshake</h1>
                 <br><br>
             </div>
         </div>
@@ -78,24 +52,29 @@
                 <div class="padding-right-tdb15">
                     <p class="c-tdb-red8 font-tdb14 bold-tdb6">CONNECT WITH US</p>
                     <hr style="border:none;border-top:solid rgb(200,200,200) 1px;" />
-                    <a href="#" class="l-tdb50"><i class="fab fa-facebook b-tdb-red8 padding-tdb10 c-tdb-gray2 circle"></i> Follow Us</a><br />
-                    <a href="#"><i class="fab fa-instagram b-tdb-red8 padding-tdb10 c-tdb-gray2 circle"></i> Insta Page</a><br /><br />
+                    <a href="#" class="l-tdb50"><i class="fab fa-facebook b-tdb-red8 padding-tdb10 c-tdb-red8 circle"></i> Follow Us</a><br />
+                    <a href="#"><i class="fab fa-instagram b-tdb-red8 padding-tdb10 c-tdb-red8 circle"></i> Insta Page</a><br /><br />
 
                    
                 </div>
             </div>
             <div class="tdb-md-3 left bold-tdb3 ">
                 <div class="padding-right-tdb15 padding-bottom-tdb10">
-                    <p class="c-tdb-red8 font-tdb14 bold-tdb6">Contact Us!</p>
+                    <p class="c-tdb-red8 font-tdb14 bold-tdb6">CONTACT US!</p>
                     <hr style="border:none;border-top:solid rgb(200,200,200) 1px;" />
                     <br />
                     <label for="subemail">Call/Whatsapp</label><br><br>
-                    <a href="#" title="contact us on whatsapp"><i class="fa fa-phone b-tdb-red8 padding-tdb10 c-tdb-gray2 circle"></i></a>
-                    <a href="https://wa.me/918077401297/?text=" title="contact us on whatsapp"><i class="fab fa-whatsapp b-tdb-red8 padding-tdb10 c-tdb-gray2 circle"></i></a>
+                    <a href="#" title="contact us on whatsapp"><i class="fa fa-phone b-tdb-red8 padding-tdb10 c-tdb-red8 circle"></i></a>
+                    <a href="https://wa.me/918077401297/?text=" title="contact us on whatsapp"><i class="fab fa-whatsapp b-tdb-red8 padding-tdb10 c-tdb-red8 circle"></i></a>
 
 
                     <br />
                 </div>
+            </div>
+
+            <div class="tdb-md-12">
+                <br>
+            <i class="fa fa-globe"></i> Sector-66, Noida, India
             </div>
 
 
@@ -254,6 +233,10 @@ $(".popup").show(200);
 });
 });
 </script>
+
+              <script>
+              new WOW().init();
+              </script>
 
     
 

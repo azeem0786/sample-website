@@ -9,10 +9,10 @@ $(".nav4 .sidebar").toggle(300);
 $(".nav4 .cover").fadeIn(300);
 });
 $("#toggle42, #cover1,.anchor,.sidetop").click(function(){
-    if(innerWidth<=950){
+  
 $("#toggle41").toggle(200);
 $("#toggle42").toggle(200);
-    }
+
 $(".nav4 .sidebar,.nav4 .cover").fadeOut(200);
 });
 

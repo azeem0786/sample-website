@@ -45,9 +45,10 @@ if (isset($_SESSION['login_user'])) {
     <script src="tdb-package/js/nav.js?version=01"></script>
     <link rel="stylesheet" href="tdb-package/framework/style.css?version=01" />
     <link rel="stylesheet" href="tdb-package/framework/index.css?version=01" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
-<!-- sweet alert -->
-<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <!-- sweet alert -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
     <!--Start of Tawk.to Script-->
     <?php
@@ -97,7 +98,7 @@ if (isset($_SESSION['login_user'])) {
 </head>
 
 <body id="body" class="b-tdb-gray4 fixed">
-    
+
 <?php include 'header.php';
     }
 
@@ -144,44 +145,26 @@ if (isset($_SESSION['login_user'])) {
     {
         echo $_SESSION['chat'];
         $variable = 'profile';
-    ?>
-        <title>Upload PDF</title>
-
-        <meta name="robots" content="noindex, nofollow">
-        </head>
-
-        <body id="body" class="b-tdb-gray4 fixed">
-        <?php include 'header.php';
-    }
-
-
-    #####home-collection.php#####
-    #####home-collection.php#####
-    function home_collection()
-    {
-        echo $_SESSION['chat'];
-        $variable = 'home_collection';
         ?>
-            <title>Home Collection | Developer Brains</title>
-            <meta name="description" content="Home Collection | Developer Brains">
-            <meta name="robots" content="index, follow">
+            <title>Upload PDF</title>
+
+            <meta name="robots" content="noindex, nofollow">
             </head>
 
             <body id="body" class="b-tdb-gray4 fixed">
-
             <?php include 'header.php';
         }
 
 
         #####home-collection.php#####
         #####home-collection.php#####
-        function prescription()
+        function home_collection()
         {
             echo $_SESSION['chat'];
-            $variable = 'prescription';
+            $variable = 'home_collection';
             ?>
-                <title>Upload prescription | Developer Brains</title>
-                <meta name="description" content="Upload prescription | Developer Brains">
+                <title>Home Collection | Developer Brains</title>
+                <meta name="description" content="Home Collection | Developer Brains">
                 <meta name="robots" content="index, follow">
                 </head>
 
@@ -191,17 +174,16 @@ if (isset($_SESSION['login_user'])) {
             }
 
 
-
-            #####privacy.php#####
-            #####privacy.php#####
-            function privacy()
+            #####home-collection.php#####
+            #####home-collection.php#####
+            function prescription()
             {
-
-                $variable = 'privacy';
+                echo $_SESSION['chat'];
+                $variable = 'prescription';
                 ?>
-                    <title>Developer Brains Privacy</title>
-                    <meta name="description" content="Developer Brains Privacy Policy">
-                    <meta name="robots" content="noindex, nofollow">
+                    <title>Upload prescription | Developer Brains</title>
+                    <meta name="description" content="Upload prescription | Developer Brains">
+                    <meta name="robots" content="index, follow">
                     </head>
 
                     <body id="body" class="b-tdb-gray4 fixed">
@@ -211,16 +193,15 @@ if (isset($_SESSION['login_user'])) {
 
 
 
-
-
-                #####terms.php#####
-                #####terms.php#####
-                function terms()
+                #####privacy.php#####
+                #####privacy.php#####
+                function privacy()
                 {
-                    $variable = 'terms';
+
+                    $variable = 'privacy';
                     ?>
-                        <title>Developer Brains Terms</title>
-                        <meta name="description" content="Developer Brains Terms  & Conditions page">
+                        <title>Developer Brains Privacy</title>
+                        <meta name="description" content="Developer Brains Privacy Policy">
                         <meta name="robots" content="noindex, nofollow">
                         </head>
 
@@ -232,40 +213,39 @@ if (isset($_SESSION['login_user'])) {
 
 
 
-                    #####admin.php#####
-                    #####admin.php#####
-                    function admin()
+
+                    #####terms.php#####
+                    #####terms.php#####
+                    function terms()
                     {
-                        if (!isset($_SESSION['admin'])) {
-                            header("location:logout.php");
-                        } else if (!isset($_SESSION['login_user'])) {
-                            header("location:index.php");
-                        }
-                        $variable = 'admin';
+                        $variable = 'terms';
                         ?>
-                            <title>Admin</title>
+                            <title>Developer Brains Terms</title>
+                            <meta name="description" content="Developer Brains Terms  & Conditions page">
                             <meta name="robots" content="noindex, nofollow">
                             </head>
 
                             <body id="body" class="b-tdb-gray4 fixed">
+
                             <?php include 'header.php';
                         }
 
 
 
-                        #####signup.php#####
-                        #####signup.php#####
-                        function signup()
+
+                        #####admin.php#####
+                        #####admin.php#####
+                        function admin()
                         {
-                            echo $_SESSION['chat'];
-                            if (isset($_SESSION['login_user'])) {
+                            if (!isset($_SESSION['admin'])) {
+                                header("location:logout.php");
+                            } else if (!isset($_SESSION['login_user'])) {
                                 header("location:index.php");
                             }
-                            $variable = 'signup';
+                            $variable = 'admin';
                             ?>
-                                <title>E-Menus Sign Up Form</title>
-                                <meta name="description" content="Register on E-Menu platform using email id.">
-                                <meta name="robots" content="index, follow">
+                                <title>Admin</title>
+                                <meta name="robots" content="noindex, nofollow">
                                 </head>
 
                                 <body id="body" class="b-tdb-gray4 fixed">
@@ -273,43 +253,64 @@ if (isset($_SESSION['login_user'])) {
                             }
 
 
-                            #####login.php#####
-                            #####login.php#####
-                            function login()
+
+                            #####signup.php#####
+                            #####signup.php#####
+                            function signup()
                             {
                                 echo $_SESSION['chat'];
                                 if (isset($_SESSION['login_user'])) {
                                     header("location:index.php");
                                 }
-                                $variable = 'login';
+                                $variable = 'signup';
                                 ?>
-                                    <title>Login Page | Developer Brains </title>
-                                    <meta name="description" content="Login Developer Brains and Download Your Report.">
+                                    <title>E-Menus Sign Up Form</title>
+                                    <meta name="description" content="Register on E-Menu platform using email id.">
                                     <meta name="robots" content="index, follow">
                                     </head>
 
                                     <body id="body" class="b-tdb-gray4 fixed">
-
                                     <?php include 'header.php';
                                 }
 
 
-                                #####password.php#####
-                                #####password.php#####
-                                function password()
+                                #####login.php#####
+                                #####login.php#####
+                                function login()
                                 {
                                     echo $_SESSION['chat'];
                                     if (isset($_SESSION['login_user'])) {
                                         header("location:index.php");
                                     }
-                                    $variable = 'password';
+                                    $variable = 'login';
                                     ?>
-                                        <title>Developer Brains Password Reset</title>
-                                        <meta name="description" content="Developer Brains Password Reset">
-                                        <meta name="robots" content="noindex, nofollow">
+                                        <title>Login Page | Developer Brains </title>
+                                        <meta name="description" content="Login Developer Brains and Download Your Report.">
+                                        <meta name="robots" content="index, follow">
                                         </head>
 
                                         <body id="body" class="b-tdb-gray4 fixed">
 
                                         <?php include 'header.php';
                                     }
+
+
+                                    #####password.php#####
+                                    #####password.php#####
+                                    function password()
+                                    {
+                                        echo $_SESSION['chat'];
+                                        if (isset($_SESSION['login_user'])) {
+                                            header("location:index.php");
+                                        }
+                                        $variable = 'password';
+                                        ?>
+                                            <title>Developer Brains Password Reset</title>
+                                            <meta name="description" content="Developer Brains Password Reset">
+                                            <meta name="robots" content="noindex, nofollow">
+                                            </head>
+
+                                            <body id="body" class="b-tdb-gray4 fixed">
+
+                                            <?php include 'header.php';
+                                        }
