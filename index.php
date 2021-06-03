@@ -11,8 +11,10 @@ index();
                 <p class="bold-tdb6">Make a free milkshake website on your phone in minutes</p>
                 <br><img src="img/app_ios_v1.png" class="h-px-tdb40" alt="ios app"> <img src="img/app_android_v1.png" class="h-px-tdb40" alt="ios app">
                 <br><br>
-            <button class="btn-tdb b-tdb-red9 c-tdb-red9 btn-tdb1">Watch this <i class="fa fa-arrow-right"></i></button>
-            <br><br><br><i class="fa fa-arrow-down c-tdb-red8"></i>
+            <button class="btn-tdb b-tdb-red9 c-tdb-red9 btn-tdb1">Watch this <i class="fa fa-play font-tdb12"></i></button>
+            <br><br><br><br><br><br><i class="fas font-tdb25 fa-angle-double-down c-tdb-red8"></i>
+            <br><br><br>
+            
             </div>
         </div>
     </div>
