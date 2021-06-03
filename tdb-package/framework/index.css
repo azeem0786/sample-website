@@ -1,0 +1,260 @@
+/*responsive navigation bar*/
+/*responsive navigation bar*/
+.nav4{width:100%;left:0;font-size:14px;z-index:50000;padding:10px 0px 2px 0;color:rgb(71, 71, 71);border-radius:0}
+.nav4 a{transition:0.5s;color: inherit;font-size: 14px;}
+.nav4 a:hover{opacity:0.6}
+.nav4 a:active{opacity:1}
+.nav4 a p{margin-top:-15px;display: inline-block;letter-spacing: 1px;padding:0px 15px 0 0;margin:0}
+.nav4 .logo{padding:5px 0 13px 10px;}
+.nav4 .logo img{position:absolute;padding-top:0px}
+.nav4 .brand{padding:3px 0 0px 37px;display:inline-block}
+.nav4 .links{display:block;padding:15.5px 20px 15.5px 0;text-transform: uppercase;}
+.nav4 .mylinks{display:none}
+.nav4 .expend{display:none;position: absolute;top:61px;right:0;margin-right:470px;padding:10px 30px 20px 30px;text-align:center}
+.nav4 .expend a p{padding:5px 0 5px 0}
+/* wishlist */
+.nav4 .expend1{display:none;position: absolute;top:61px;right:0;margin-right:10px;padding:20px 30px 20px 30px;text-align:center}
+.nav4 .expend1 a p{padding:5px 0 5px 0}
+/* cart */
+.nav4 .expend2{display:none;z-index:100000;position: absolute;top:61px;right:0;margin-right:0px;padding:10px 30px 20px 30px;text-align:center}
+.nav4 .expend2 a p{padding:5px 0 5px 0}
+.nav4 .expend3{display:none;z-index:10000;position: absolute;top:61px;right:50px;margin-right:0px;padding:10px 30px 20px 30px;text-align:center}
+.nav4 .expend3 a p{padding:5px 0 5px 0}
+.nav4 .social{text-align:center;padding:12px 0;font-size: 22px;}
+.nav4 .social a i{font-size:21px;padding:0 5px;}
+.nav4 .social p{padding:0}
+.nav4 .social-mobile{color:white;background-color:rgb(49, 49, 49);text-align:center;padding:10px;font-size: 25px;}
+.nav4 .social-mobile i{display:none;padding:0 5px}
+.nav4 .sidebar{border-radius:0 0 0 0;z-index: 10500;display:none;animation:side 0.2s;padding:0px;overflow-x:hidden;box-shadow: 0 0 5px 0 rgba(0,0,0,.1);position: fixed;top:0px;left:0;width:310px;height:100%;}
+.nav4 .sidetop{padding:15px}
+.nav4 .cover{display:none;position:fixed;height:100%;width:100%;background-color: rgba(0, 0, 0, 0.158);z-index:1000;top:0;left:0}
+.nav4 .toggle{font-size:19px;cursor: pointer;display:none;position:absolute;right:22px;top:48px}
+@media screen and (max-width:950px){
+    .nav4 #toggle41{display:block;}
+    .nav4 #toggle42{display:none;}
+    .nav4 .links{display:none}
+}
+.anchor{padding:20px;display:block;}
+
+/*common*/
+html{scroll-behavior: smooth;}
+
+footer{margin-bottom:-3px}
+a{transition:0.3s;text-decoration: none;color:inherit}
+a:hover{text-decoration:none;opacity: 0.6;}
+
+
+
+/*loader
+.loader1 {display:none;border: 5px solid rgb(131, 130, 130);border-radius: 50%;border-top: 5px solid #43b9b900;border-bottom: 5px solid #43b9b900;width: 30px;height: 30px;-webkit-animation: spin 2s linear infinite;animation: spin 2s linear infinite;margin:0px auto}
+@-webkit-keyframes spin {0% { -webkit-transform: rotate(0deg); }100% { -webkit-transform: rotate(360deg); }}  
+@keyframes spin {0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); }}
+*/
+.loader1{
+    display:none;
+width:10px;
+        height:5px;
+      border-radius:10px;
+        background-color: #185aa6;
+        animation: animation 2s;
+	
+
+position:fixed;
+      top:0;
+		animation-iteration-count: infinite;
+		
+      }
+
+      /* animation @keyframe rule */
+@keyframes animation
+{
+  0%   {
+	  margin-left: 0%;
+	  }
+  50% {
+	 width:200px;
+	  }
+  100% {
+	  margin-left: 100%;
+    width:50px
+  }
+}
+
+
+/*chatbot*//*chatbot*//*chatbot*/
+.chatbot {
+	display: none;
+	position: fixed;
+	width: 270px;
+	margin: 0 auto;
+	transition: 1s;
+	left: 20px;
+	bottom: 30px;
+	z-index: 1000;
+	box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.164);
+	border-radius: 1em
+}
+
+#box {
+	overflow: auto;
+	padding-bottom: 20px;
+	height: 260px;
+	z-index: 50000;
+}
+
+.user1 {
+	transition: 0.3s;
+	padding: 15px 18px;
+	border-radius: 1em;
+	box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.109);
+	border-left: solid #185aa6 5px;
+	margin: 5px 10px 5px 10px;
+	max-width: 220px;
+}
+
+
+.icon1 {
+	width: 50px;
+	height: 1px;
+	margin-left: 5px;
+	border-radius: 50%;
+	color: #185aa6;
+}
+
+
+
+
+
+#bottom1 {
+	background-color: rgb(255, 255, 255);
+	padding: 0 0px;
+	position: absolute;
+	bottom: 0;
+	width: 270px;
+	right: 0;
+
+	border-top: solid rgb(219, 219, 219) 1px;
+}
+.whatsapp::before{
+	content: "";
+position: absolute;
+top: 50%;
+left: -5px;
+transform: translate(0, -50%)rotate(45deg);
+width: 10px;
+height: 10px;
+background: #fafafa;
+}
+
+
+
+
+
+
+/* slider */
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1200px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+.mySlides1 {
+	display: none;
+  }
+
+/* Next & previous buttons */
+.prev, .next,.prev1, .next1 {
+	background-color: transparent;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: 30px;
+  height:30px;
+  margin-top: -10px;
+  padding: 8px;
+  text-align: center;
+  color: rgb(94, 94, 94);
+  font-weight: bold;
+  font-size: 10px;
+  transition: 0.6s ease;
+  border-radius: 50%;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next,.next1 {
+  right: 10px;
+  border-radius: 50%;
+}
+
+.prev,.prev1 {
+	left: 10px;
+  }
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover,.prev1:hover, .next1:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot,.dot1 {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,.active1, .dot:hover,.dot1:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade,.fade1 {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
