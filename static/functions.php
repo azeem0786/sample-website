@@ -40,10 +40,10 @@ if (isset($_SESSION['login_user'])) {
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
-    <script src="tdb-package/js/jquery.min.js?version=0"></script>
-    <script src="tdb-package/js/nav.js?version=0"></script>
-    <link rel="stylesheet" href="tdb-package/framework/style.css?version=0" />
-    <link rel="stylesheet" href="tdb-package/framework/index.css?version=0" />
+    <script src="tdb-package/js/jquery.min.js?version=01"></script>
+    <script src="tdb-package/js/nav.js?version=01"></script>
+    <link rel="stylesheet" href="tdb-package/framework/style.css?version=01" />
+    <link rel="stylesheet" href="tdb-package/framework/index.css?version=01" />
 
 <!-- sweet alert -->
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
