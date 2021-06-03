@@ -15,7 +15,7 @@ body{margin: 0;
 .tdb-poly-container{position:fixed;height:100vh;top:0;left:0;width:100%;background-size:100%;background-repeat: no-repeat;filter:blur(30px)}
 .tdb-poly-layer{background:rgba(255, 255, 255, 0.4);position:relative}
 
-h1,h2,h3,h4,h5,h6{font-weight:400}
+h1,h2,h3,h4,h5,h6{font-weight:400;font-family: 'Kaushan Script', cursive;}
 
 /*button1*//*button2*//*button3*//*button3*/
 button{outline:none;outline-color: transparent;}
