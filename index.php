@@ -122,7 +122,7 @@ index();
 </section>
 
 
-<section class="padding-top-tdb40 padding-bottom-tdb40 b-tdb-red8">
+<section class="padding-top-tdb40 padding-bottom-tdb40 b-tdb-red8" style="overflow: hidden;">
     <div class="tdb-super-container">
         <div class="tdb-md-row center">
             <div class="tdb-md-6 center">
