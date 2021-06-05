@@ -23,6 +23,7 @@ index();
 
 
 <section class="b-tdb-white c-tdb-black">
+<br><br><br>
     <div class="tdb-super-container">
         <div class="tdb-md-row padding-tdb30">
             <div class="tdb-md-6">
@@ -36,13 +37,14 @@ index();
             </div>
             <div class="tdb-md-6">
                 <br><br><br>
-                <img src="img/img1.jpg" alt="" style="transform: rotate(-20deg);width:32%">
+                <img src="img/img1.jpg" alt="" style="transform: rotate(-5deg);width:32%">
                 <img src="img/img2.jpg" alt="" style="transform: rotate(20deg);width:32%">
                 <img src="img/img3.jpg" alt="" style="transform: rotate(-20deg);width:32%">
                 <br><br>
             </div>
         </div>
     </div>
+    <br><br><br><br>
 </section>
 
 <section class="padding-top-tdb40 padding-bottom-tdb40">
@@ -95,7 +97,7 @@ index();
     </style>
 </section>
 
-<section class="padding-top-tdb40 padding-bottom-tdb40 b-tdb-pink1">
+<section class="padding-top-tdb40 padding-bottom-tdb40 b-tdb-gray1">
     <div class="tdb-super-container">
         <div class="tdb-md-row center">
             <div class="tdb-md-12">
@@ -154,28 +156,22 @@ you</p>
     </style>
 </section>
 <!-- package -->
-<section class="b-tdb-pink1">
+<section class="b-tdb-gray2">
     <div class="tdb-super-container c-tdb-red8">
         <div class="tdb-md-row padding-tdb30">
             <div class="tdb-md-12">
-                <h1 class="bold-tdb8 font-tdb35 c-tdb-red8 center">Popular Packages</h1>
+            <br><br>
+                <h1 class="bold-tdb8 font-tdb35 c-tdb-red8 center margin-bottom-tdb0">Popular Packages</h1>
+                <p class="center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, reprehenderit! Laborum id placeat dolore praesentium fugiat quia, distinctio corporis accusamus excepturi nobis. Rem earum nesciunt maiores ea non nam quos!</p>
+                <br>
             </div>
             <div class="tdb-md-4 margin-top-tdb10 position-r-tdb">
-                <div class="b-tdb-red8 h-per-tdb100 s-center-tdb2 padding-tdb20 margin-tdb10 bold-tdb6 btn-tdb2" style="min-height:130px">
+                <div style="border-bottom-right-radius:20%;border-top-left-radius:20%" class="b-tdb-red8 h-per-tdb100 s-center-tdb2 padding-tdb20 margin-tdb10 bold-tdb6 btn-tdb2" style="min-height:130px">
                     <h2 class="s-center1-tdb1 position-a-tdb btn-tdb1 font-tdb15 left-tdb0 b-tdb-red9 padding-tdb15 c-tdb-white top-tdb0 bold-tdb8">
-                        91% Off</h2><br><br><br>
+                        New</h2><br><br><br>
 
-                    <h2 class="bold-tdb5 c-tdb-red8 margin-tdb0 font-tdb23">Healthy India 2021 Full Body Checkup</h2><br>
-                    Includes<br><br>
-                    <li class="padding-tdb5 btn-tdb1 margin-bottom-tdb5">
-                        Blood Glucose Fasting
-                    </li>
-                    <li class="padding-tdb5 btn-tdb1 margin-bottom-tdb5">
-                        Complete Hemogram
-                    </li>
-                    <li class="padding-tdb5 btn-tdb1 margin-bottom-tdb5">
-                        HbA1c
-                    </li>
+                    <h2 class="bold-tdb5 c-tdb-red8 margin-tdb0 font-tdb23">Heading</h2><br>
+                    <p class='bold-tdb4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem fugit vitae quae aspernatur dolorum perspiciatis odio atque voluptate. Eos totam aut molestias perferendis voluptates possimus deleniti repellat, in architecto? Quaerat.</p>
                     <br>
                     <p class="c-tdb-red8">
                         <del>₹7733</del> <span class="bold-tdb8 font-tdb30 padding-left-tdb10 c-tdb-red8">₹ 699
@@ -184,21 +180,12 @@ you</p>
                 </div>
             </div>
             <div class="tdb-md-4 margin-top-tdb10 position-r-tdb">
-                <div class="b-tdb-red8 h-per-tdb100 s-center-tdb2 padding-tdb20 margin-tdb10 bold-tdb6 btn-tdb2" style="min-height:130px">
+                <div style="border-bottom-right-radius:20%;border-top-left-radius:20%" class="b-tdb-red8 h-per-tdb100 s-center-tdb2 padding-tdb20 margin-tdb10 bold-tdb6 btn-tdb2" style="min-height:130px">
                     <h2 class="s-center1-tdb1 position-a-tdb btn-tdb1 font-tdb15 left-tdb0 b-tdb-red9 padding-tdb15 c-tdb-white top-tdb0 bold-tdb8">
-                        91% Off</h2><br><br><br>
+                        New</h2><br><br><br>
 
-                    <h2 class="bold-tdb5 c-tdb-red8 margin-tdb0 font-tdb23">Healthy India 2021 Full Body Checkup</h2><br>
-                    Includes<br><br>
-                    <li class="padding-tdb5 btn-tdb1 margin-bottom-tdb5">
-                        Blood Glucose Fasting
-                    </li>
-                    <li class="padding-tdb5 btn-tdb1 margin-bottom-tdb5">
-                        Complete Hemogram
-                    </li>
-                    <li class="padding-tdb5 btn-tdb1 margin-bottom-tdb5">
-                        HbA1c
-                    </li>
+                    <h2 class="bold-tdb5 c-tdb-red8 margin-tdb0 font-tdb23">Heading</h2><br>
+                    <p class='bold-tdb4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem fugit vitae quae aspernatur dolorum perspiciatis odio atque voluptate. Eos totam aut molestias perferendis voluptates possimus deleniti repellat, in architecto? Quaerat.</p>
                     <br>
                     <p class="c-tdb-red8">
                         <del>₹7733</del> <span class="bold-tdb8 font-tdb30 padding-left-tdb10 c-tdb-red8">₹ 699
@@ -207,21 +194,12 @@ you</p>
                 </div>
             </div>
             <div class="tdb-md-4 margin-top-tdb10 position-r-tdb">
-                <div class="b-tdb-red8 h-per-tdb100 s-center-tdb2 padding-tdb20 margin-tdb10 bold-tdb6 btn-tdb2" style="min-height:130px">
+                <div style="border-bottom-right-radius:20%;border-top-left-radius:20%" class="b-tdb-red8 h-per-tdb100 s-center-tdb2 padding-tdb20 margin-tdb10 bold-tdb6 btn-tdb2" style="min-height:130px">
                     <h2 class="s-center1-tdb1 position-a-tdb btn-tdb1 font-tdb15 left-tdb0 b-tdb-red9 padding-tdb15 c-tdb-white top-tdb0 bold-tdb8">
-                        91% Off</h2><br><br><br>
+                        New</h2><br><br><br>
 
-                    <h2 class="bold-tdb5 c-tdb-red8 margin-tdb0 font-tdb23">Healthy India 2021 Full Body Checkup</h2><br>
-                    Includes<br><br>
-                    <li class="padding-tdb5 btn-tdb1 margin-bottom-tdb5">
-                        Blood Glucose Fasting
-                    </li>
-                    <li class="padding-tdb5 btn-tdb1 margin-bottom-tdb5">
-                        Complete Hemogram
-                    </li>
-                    <li class="padding-tdb5 btn-tdb1 margin-bottom-tdb5">
-                        HbA1c
-                    </li>
+                    <h2 class="bold-tdb5 c-tdb-red8 margin-tdb0 font-tdb23">Heading</h2><br>
+                    <p class='bold-tdb4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem fugit vitae quae aspernatur dolorum perspiciatis odio atque voluptate. Eos totam aut molestias perferendis voluptates possimus deleniti repellat, in architecto? Quaerat.</p>
                     <br>
                     <p class="c-tdb-red8">
                         <del>₹7733</del> <span class="bold-tdb8 font-tdb30 padding-left-tdb10 c-tdb-red8">₹ 699

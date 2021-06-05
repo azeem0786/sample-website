@@ -1,37 +1,41 @@
-<section class="tdb-super-container c-tdb-red8">
-    <div class="tdb-md-row center b-tdb-red8 margin-tdb30">
-        <div class="tdb-md-12 left">
-            <div class="padding-tdb30 center">
-                <h5 class="bold-tdb6 font-tdb20 margin-top-tdb0 margin-bottom-tdb5">Flexible hours designed around your schedule</h5>
-                Appointments available on your terms.
-                <br>
-                <a href="home-collection.php"><button class="btn-tdb b-tdb-red9 btn-tdb1 c-tdb-white bold-tdb4 margin-top-tdb10">
-                        Book Home Collection</button></a>
-            </div>
+<section class="c-tdb-red8 b-tdb-white">
+    <br>
+    <div class="tdb-super-container">
+        <div class="tdb-md-row center b-tdb-red8 margin-tdb30">
+            <div class="tdb-md-12 left">
+                <div class="padding-tdb30 center">
+                    <h5 class="bold-tdb6 font-tdb20 margin-top-tdb0 margin-bottom-tdb5">Flexible hours designed around your schedule</h5>
+                    Appointments available on your terms.
+                    <br>
+                    <a href="home-collection.php"><button class="btn-tdb b-tdb-red9 btn-tdb1 c-tdb-white bold-tdb4 margin-top-tdb10">
+                            Book Home Collection</button></a>
+                </div>
 
+            </div>
         </div>
     </div>
+    <br>
 </section>
 
 
 
 <!-- footer -->
-<section class="b-tdb-red8 padding-tdb20 padding-top-tdb30 padding-bottom-tdb30 c-tdb-red8 font-tdb14" id="follow">
+<section class="b-tdb-white padding-tdb20 padding-top-tdb30 padding-bottom-tdb30 c-tdb-red8 font-tdb14" id="follow">
     <div class="tdb-super-container">
         <div class="tdb-md-row">
             <div class="tdb-md-12 left">
                 <br />
                 <a href="index.php" title="go to home">
-                <h1 class="bold-tdb8 margin-tdb0 font-tdb50 c-tdb-red8 wow bounceInUp" style="font-family: 'Kaushan Script', cursive;">milkshake</h1>
-                <br><br>
+                    <h1 class="bold-tdb8 margin-tdb0 font-tdb50 c-tdb-red8 wow bounceInUp" style="font-family: 'Kaushan Script', cursive;">milkshake</h1>
+                    <br><br>
             </div>
         </div>
         <br>
         <div class="tdb-md-row font-tdb15">
             <div class="tdb-md-3 left bold-tdb3 padding-bottom-tdb10">
                 <div class="padding-right-tdb15">
-                    <p class="c-tdb-red8 font-tdb14 bold-tdb6">CUSTOMER SERVICE</p>
-                    <hr style="border:none;border-top:solid rgb(200,200,200) 1px;" />
+                    <h2 class="c-tdb-red8 font-tdb18 bold-tdb6">Customer Service</h2>
+                    <hr style="border:none;border-top:solid rgb(255,0,0,0.1) 0.5px;" />
                     <a href="prescription.php" class="padding-right-tdb5 l-tdb30">Upload Prescription</a><br />
                     <a href="about.php" class="padding-right-tdb5 l-tdb30">About Us</a><br />
                     <a href="contact-us.php" class="padding-right-tdb5 l-tdb30">Contact Us</a><br />
@@ -41,27 +45,27 @@
             </div>
             <div class="tdb-md-3 left bold-tdb3 padding-bottom-tdb10">
                 <div class="padding-right-tdb15">
-                    <p class="c-tdb-red8 font-tdb14 bold-tdb6">LINKS</p>
-                    <hr style="border:none;border-top:solid rgb(200,200,200) 1px;" />
-                    <a href="terms.php" class="padding-right-tdb5 l-tdb30">Terms & Conditions</a><br />
-                    <a href="privacy.php" class="padding-right-tdb5 l-tdb30">Privacy Policy</a><br />
+                    <h2 class="c-tdb-red8 font-tdb18 bold-tdb6">Links</h2>
+                    <hr style="border:none;border-top:solid rgb(255,0,0,0.1) 0.5px;" />
+                    <a href="terms-and-conditions.php" class="padding-right-tdb5 l-tdb30">Terms & Conditions</a><br />
+                    <a href="privacy-policy.php" class="padding-right-tdb5 l-tdb30">Privacy Policy</a><br />
                     <!-- <a href="blog.php" class="padding-right-tdb5 l-tdb30">Blog</a><br /> -->
                 </div>
             </div>
             <div class="tdb-md-3 left bold-tdb3 padding-bottom-tdb10">
                 <div class="padding-right-tdb15">
-                    <p class="c-tdb-red8 font-tdb14 bold-tdb6">CONNECT WITH US</p>
-                    <hr style="border:none;border-top:solid rgb(200,200,200) 1px;" />
+                    <h2 class="c-tdb-red8 font-tdb18 bold-tdb6">Connect With Us</h2>
+                    <hr style="border:none;border-top:solid rgb(255,0,0,0.1) 0.5px;" />
                     <a href="#" class="l-tdb50"><i class="fab fa-facebook b-tdb-red8 padding-tdb10 c-tdb-red8 circle"></i> Follow Us</a><br />
                     <a href="#"><i class="fab fa-instagram b-tdb-red8 padding-tdb10 c-tdb-red8 circle"></i> Insta Page</a><br /><br />
 
-                   
+
                 </div>
             </div>
             <div class="tdb-md-3 left bold-tdb3 ">
                 <div class="padding-right-tdb15 padding-bottom-tdb10">
-                    <p class="c-tdb-red8 font-tdb14 bold-tdb6">CONTACT US!</p>
-                    <hr style="border:none;border-top:solid rgb(200,200,200) 1px;" />
+                    <h2 class="c-tdb-red8 font-tdb18 bold-tdb6">Contact Us!</h2>
+                    <hr style="border:none;border-top:solid rgb(255,0,0,0.1) 0.5px;" />
                     <br />
                     <label for="subemail">Call/Whatsapp</label><br><br>
                     <a href="#" title="contact us on whatsapp"><i class="fa fa-phone b-tdb-red8 padding-tdb10 c-tdb-red8 circle"></i></a>
@@ -74,7 +78,7 @@
 
             <div class="tdb-md-12">
                 <br>
-            <i class="fa fa-globe"></i> Sector-66, Noida, India
+                <i class="fa fa-globe"></i> Sector-66, Noida, India
             </div>
 
 
@@ -98,17 +102,18 @@
             </div>
         </div>
         <br />
-        <hr style="border:none;border-top:solid rgb(200,200,200) 1px;" />
+        <hr style="border:none;border-top:solid rgb(255,0,0,0.1) 0.5px;" />
         <br>
         <div class="tdb-md-row center">
             <div class="tdb-md-6 left">
-                <a href="privacy.php" class="padding-right-tdb10">Privacy Policy</a>·
-                <a href="terms.php">
+                <a href="privacy-policy.php" class="padding-right-tdb10">Privacy Policy</a>·
+                <a href="terms-and-conditions.php">
                     Terms & Conditions</a>
                 <br>
             </div>
             <div class="tdb-md-6 right letter-tdb2">
-                Copyright 2021, <span class="c-tdb-red8 bold-tdb6">website.com</span> | <a href="https://www.thedeveloperbrains.com" class="c-tdb-red8 bold-tdb6">Powered by the developer brains</a>.
+                © TDB Layout 2021. Trademarks and brands are the property of their respective owners.
+
                 <br>
             </div>
         </div>
@@ -123,8 +128,8 @@
 
     <div class="tdb-md-row">
         <div class="tdb-md-6 b-tdb-white padding-tdb10 position-r-tdb" style="padding-top:20px;margin:30px auto;">
-        <i class="fa fa-times padding-tdb15 b-tdb-red8 c-tdb-white position-a-tdb right-tdb10 cursor"></i>    
-        <div class="b-tdb-white padding-tdb10">
+            <i class="fa fa-times padding-tdb15 b-tdb-red8 c-tdb-white position-a-tdb right-tdb10 cursor"></i>
+            <div class="b-tdb-white padding-tdb10">
 
                 <div>
 
@@ -163,7 +168,6 @@
                         </form>
                     </div>
 
-
                     <div class="center">
                         <a href="tel:917618188080"><button name="upload" type="submit" id="feedback" class="btn-tdb b-tdb-black bold-tdb3 s-center1-tdb c-tdb-gray1 margin-tdb0 letter-tdb5" style="padding:18px 15px 18px 15px;"><i class="fa fa-phone"></i> Toll Free No: 91 761 818 8080</button></a>
                     </div>
@@ -172,8 +176,8 @@
             <br><br><br>
         </div>
 
-    
-</div>
+
+    </div>
 
 </div>
 
@@ -223,21 +227,13 @@
 
 
 <script>
-$(document).ready(function(){
-$(".fa-times").click(function(){
-$(".popup").hide(200);
-});
+    $(document).ready(function() {
+        $(".fa-times").click(function() {
+            $(".popup").hide(200);
+        });
 
-$(".request,.pop").click(function(){
-$(".popup").show(200);
-});
-});
+        $(".request,.pop").click(function() {
+            $(".popup").show(200);
+        });
+    });
 </script>
-
-              <script>
-              new WOW().init();
-              </script>
-
-    
-
-   

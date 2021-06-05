@@ -12,21 +12,21 @@ if (isset($_SESSION['login_user'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="theme-color" content="#d65c2c">
-    <meta name="author" content="Developer Brains">
+    <meta name="author" content="TDB Sample Layout">
     <meta name="copyright" content="All rights reserved. Copyright 2020, www.healthcheckindia.com">
 
-    <meta property="og:site_name" content="Developer Brains" />
-    <meta property="og:title" content="Developer Brains" />
+    <meta property="og:site_name" content="TDB Sample Layout" />
+    <meta property="og:title" content="TDB Sample Layout" />
     <meta property="og:image" content="https://www.thedeveloperbrains.com/img/logos/logo.png" />
-    <meta property="og:type" content="Developer Brains" />
+    <meta property="og:type" content="TDB Sample Layout" />
     <meta property="og:locale" content="en_GB" />
     <meta property="og:url" content="https://www.healthcheckindia.com" />
     <meta property="og:description" content="" />
 
     <!--twitter-->
-    <meta name="twitter:card" content="Developer Brains" />
-    <meta name="twitter:site" content="Developer Brains" />
-    <meta name="twitter:title" content="Developer Brains" />
+    <meta name="twitter:card" content="TDB Sample Layout" />
+    <meta name="twitter:site" content="TDB Sample Layout" />
+    <meta name="twitter:title" content="TDB Sample Layout" />
     <meta name="twitter:image" content="https://www.thedeveloperbrains.com/img/logos/logo.png" />
     <meta name="twitter:description" content="" />
 
@@ -67,7 +67,7 @@ if (isset($_SESSION['login_user'])) {
         echo $_SESSION['chat'];
         $variable = 'index';
     ?>
-        <title>Developer Brains</title>
+        <title>TDB Sample Layout</title>
         <meta name="description" content="">
         <meta name="robots" content="no-index, no-follow">
         <link rel="apple-touch-icon" sizes="57x57" href="img/apple-icon-57x57.png">
@@ -92,7 +92,7 @@ if (isset($_SESSION['login_user'])) {
         <meta name="mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="rgb(148, 38, 38)">
-        <meta name="apple-mobile-web-app-title" content="Developer Brains">
+        <meta name="apple-mobile-web-app-title" content="TDB Sample Layout">
 
         </script>
 </head>
@@ -111,8 +111,8 @@ if (isset($_SESSION['login_user'])) {
         echo $_SESSION['chat'];
         $variable = 'about';
 ?>
-    <title>Developer Brains About Page</title>
-    <meta name="description" content="Developer Brains About Page">
+    <title>TDB Sample Layout About Page</title>
+    <meta name="description" content="TDB Sample Layout About Page">
     <meta name="robots" content="index, follow">
     </head>
 
@@ -130,8 +130,8 @@ if (isset($_SESSION['login_user'])) {
         echo $_SESSION['chat'];
         $variable = 'contact';
     ?>
-        <title>Developer Brains Contact</title>
-        <meta name="description" content="Developer Brains Contact Us Page">
+        <title>TDB Sample Layout Contact</title>
+        <meta name="description" content="TDB Sample Layout Contact Us Page">
         <meta name="robots" content="index, follow">
         </head>
 
@@ -163,8 +163,8 @@ if (isset($_SESSION['login_user'])) {
             echo $_SESSION['chat'];
             $variable = 'home_collection';
             ?>
-                <title>Home Collection | Developer Brains</title>
-                <meta name="description" content="Home Collection | Developer Brains">
+                <title>Home Collection | TDB Sample Layout</title>
+                <meta name="description" content="Home Collection | TDB Sample Layout">
                 <meta name="robots" content="index, follow">
                 </head>
 
@@ -181,8 +181,8 @@ if (isset($_SESSION['login_user'])) {
                 echo $_SESSION['chat'];
                 $variable = 'prescription';
                 ?>
-                    <title>Upload prescription | Developer Brains</title>
-                    <meta name="description" content="Upload prescription | Developer Brains">
+                    <title>Upload prescription | TDB Sample Layout</title>
+                    <meta name="description" content="Upload prescription | TDB Sample Layout">
                     <meta name="robots" content="index, follow">
                     </head>
 
@@ -200,8 +200,8 @@ if (isset($_SESSION['login_user'])) {
 
                     $variable = 'privacy';
                     ?>
-                        <title>Developer Brains Privacy</title>
-                        <meta name="description" content="Developer Brains Privacy Policy">
+                        <title>TDB Sample Layout Privacy</title>
+                        <meta name="description" content="TDB Sample Layout Privacy Policy">
                         <meta name="robots" content="noindex, nofollow">
                         </head>
 
@@ -220,8 +220,8 @@ if (isset($_SESSION['login_user'])) {
                     {
                         $variable = 'terms';
                         ?>
-                            <title>Developer Brains Terms</title>
-                            <meta name="description" content="Developer Brains Terms  & Conditions page">
+                            <title>TDB Sample Layout Terms</title>
+                            <meta name="description" content="TDB Sample Layout Terms  & Conditions page">
                             <meta name="robots" content="noindex, nofollow">
                             </head>
 
@@ -284,8 +284,8 @@ if (isset($_SESSION['login_user'])) {
                                     }
                                     $variable = 'login';
                                     ?>
-                                        <title>Login Page | Developer Brains </title>
-                                        <meta name="description" content="Login Developer Brains and Download Your Report.">
+                                        <title>Login Page | TDB Sample Layout </title>
+                                        <meta name="description" content="Login TDB Sample Layout and Download Your Report.">
                                         <meta name="robots" content="index, follow">
                                         </head>
 
@@ -305,8 +305,8 @@ if (isset($_SESSION['login_user'])) {
                                         }
                                         $variable = 'password';
                                         ?>
-                                            <title>Developer Brains Password Reset</title>
-                                            <meta name="description" content="Developer Brains Password Reset">
+                                            <title>TDB Sample Layout Password Reset</title>
+                                            <meta name="description" content="TDB Sample Layout Password Reset">
                                             <meta name="robots" content="noindex, nofollow">
                                             </head>
 

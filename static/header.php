@@ -25,7 +25,7 @@
                         <p class="c-tdb-red8">ABOUT US</p>
                     </a>
                     <!-- contact -->
-                    <a href="index.php" class="anchor b-tdb-red9">
+                    <a href="contact-us.php" class="anchor b-tdb-red9">
                         <p class=" c-tdb-red9">CONTACT US</p>
                     </a>
 
