@@ -11,7 +11,7 @@ if (isset($_SESSION['login_user'])) {
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="theme-color" content="185aa6">
+    <meta name="theme-color" content="#d65c2c">
     <meta name="author" content="Developer Brains">
     <meta name="copyright" content="All rights reserved. Copyright 2020, www.healthcheckindia.com">
 
